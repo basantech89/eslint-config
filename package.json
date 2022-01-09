@@ -1,0 +1,45 @@
+{
+  "name": "@awesome-tools/eslint-config",
+  "private": false,
+  "version": "0.0.0-semantically-released",
+  "description": "Eslint config for awesome tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cm": "commitizen",
+    "prepare": "husky install",
+    "semantic-release": "semantic-release"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/basantech89/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+		"prettier",
+    "awesome-tools"
+  ],
+  "author": "Basant Soni <basantech89@gmail.com> (https://basant.netlify.app/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basantech89/eslint-config/issues"
+  },
+  "homepage": "https://github.com/basantech89/eslint-config#readme",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.25.2",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.4.1"
+  },
+  "devDependencies": {
+    "@awesome-tools/commitizen": "^1.0.0",
+    "husky": "^7.0.0",
+    "semantic-release": "^18.0.1"
+  }
+}

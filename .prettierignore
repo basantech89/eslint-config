@@ -1,0 +1,8 @@
+build/
+dist/
+node_modules/
+.snapshots/
+.github/
+*.min.js
+*.test.tsx.snap
+src/assets/
