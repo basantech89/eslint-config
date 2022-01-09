@@ -7,7 +7,6 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cm": "commitizen",
-    "prepare": "husky install",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -16,7 +15,11 @@
   },
   "keywords": [
     "eslint",
-		"prettier",
+    "eslint-config",
+    "config",
+    "styleguide",
+    "javascript",
+    "prettier",
     "awesome-tools"
   ],
   "author": "Basant Soni <basantech89@gmail.com> (https://basant.netlify.app/)",
@@ -25,6 +28,16 @@
     "url": "https://github.com/basantech89/eslint-config/issues"
   },
   "homepage": "https://github.com/basantech89/eslint-config#readme",
+  "release": {
+    "branches": [
+      "+([0-9])?(.{+([0-9]),x}).x",
+      "main",
+      "next",
+      "next-major",
+      "{name: 'beta', prerelease: true}",
+      "{name: 'alpha', prerelease: true}"
+    ]
+  },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",
