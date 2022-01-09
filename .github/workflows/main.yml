@@ -8,7 +8,8 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '16'
-        run: yarn install && npm ci
+      - name: Installation
+	      - run: yarn install && npm ci
       - name: Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
