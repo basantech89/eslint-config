@@ -1,11 +1,5 @@
 name: CI
-on:
-  push:
-    branches:
-      - $default-branch
-  pull_request:
-    branches:
-      - $default-branch
+on: [pull_requests]
 jobs:
   test:
     runs-on: ubuntu-latest
