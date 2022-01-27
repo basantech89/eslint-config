@@ -15,7 +15,7 @@
 
 - [Installation](#installation)
 - [Usage](#usage)
-  - [Things to know](#Things to know)
+  - [Things to know](#Things-to-know)
 - [Issues](#issues)
   - [🐛 Bugs](#-bugs)
   - [💡 Feature Requests](#-feature-requests)
@@ -23,7 +23,7 @@
 
 ## Installation
 
-This module is distributed via [npm][npm] which is bundled with [node][node] and
+This module is distributed via [npm](https://www.npmjs.com/) which is bundled with [node](https://nodejs.org/) and
 should be installed as one of your project's `devDependencies`:
 
 ```
