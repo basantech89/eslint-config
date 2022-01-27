@@ -5,7 +5,6 @@
   "description": "Eslint config for awesome tools",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "cm": "commitizen",
     "semantic-release": "semantic-release"
   },
@@ -54,7 +53,7 @@
     "prettier": "^2.4.1"
   },
   "devDependencies": {
-    "@awesome-tools/commitizen": "^1.0.0",
+    "@awesome-tools/commitizen": "^1.1.0",
     "husky": "^7.0.0",
     "semantic-release": "^18.0.1"
   }
